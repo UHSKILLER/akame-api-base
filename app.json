@@ -10,7 +10,7 @@
     "env": {
         "HEROKU_APP_NAME": {
             "description": "Digite o nome do app.",
-            "required": false
+            "required": true
         }
     },
     "addons": [{
