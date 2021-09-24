@@ -10,11 +10,13 @@
     "env": {
         "HEROKU_APP_NAME": {
             "description": "Digite o nome do app.",
-            "required": true
+            "required": false
         }
     },
     "addons": [{
+      "plan": "heroku-postgresql"
     }],
     "buildpacks": [{
+      "url": "heroku-community/apt"
       }]
   }
