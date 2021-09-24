@@ -12,4 +12,9 @@
             "description": "Digite o nome do app.",
             "required": true
         }
-    }
+    },
+    "addons": [{
+    }],
+    "buildpacks": [{
+      }]
+  }
